@@ -88,7 +88,7 @@ namespace ComputerVision2
             if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
-                pictureBox2.Image.Save(sfd.FileName);
+                image1.Save(sfd.FileName);
             }
         }
 
@@ -101,7 +101,7 @@ namespace ComputerVision2
             if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
-                pictureBox3.Image.Save(sfd.FileName);
+                image2.Save(sfd.FileName);
             }
         }
 
@@ -114,7 +114,7 @@ namespace ComputerVision2
             if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
-                pictureBox4.Image.Save(sfd.FileName);
+                image3.Save(sfd.FileName);
             }
         }
 
@@ -127,7 +127,7 @@ namespace ComputerVision2
             if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
-                pictureBox5.Image.Save(sfd.FileName);
+                image4.Save(sfd.FileName);
             }
         }
 
@@ -140,7 +140,7 @@ namespace ComputerVision2
             if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
-                pictureBox6.Image.Save(sfd.FileName);
+                image5.Save(sfd.FileName);
             }
         }
     }
